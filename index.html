@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="my-3">
+      <h1 class="text-center text-5xl font-bold">
+        Welcome to <span class="text-red-900">XYZ Bank</span>!!!
+      </h1>
+    </header>
+    <main>
+      <section class="my-24 bg-red-400 w-9/12 mx-auto p-10 rounded-md">
+        <div>
+          <h1 class="text-3xl my-3 font-semibold">PLEASE LOG IN</h1>
+          <input
+            type="email"
+            placeholder="Please enter your email address"
+            class="block w-9/12 p-2 my-5"
+            id="email-field"
+          />
+          <input
+            type="password"
+            placeholder="Please enter your password"
+            class="block w-9/12 p-2 my-5"
+            id="password-field"
+          />
+          <button
+            class="bg-amber-900 hover:bg-sky-900 px-4 py-2 rounded-md text-white font-semibold"
+            id="btn-log-in"
+          >
+            LOG IN
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="js/log-in.js"></script>
+  </body>
+</html>
