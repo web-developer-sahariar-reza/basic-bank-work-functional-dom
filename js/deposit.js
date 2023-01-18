@@ -48,8 +48,8 @@ Function Name: getTextElementValueById()
 
   /*
 Function Name: setTextElementValueById()
-    1. get the deposit-total by id
-    2. set the new Deposit Total
+    1. get the balance-total by id
+    2. set the new balance Total
   */
 
   setTextElementValueById("balance-total", newBalanceTotal);
